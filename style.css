@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color: #181818;
+    --pink-color: #EC008C;
+    --orange-color: #F05A28;
+    --gray-color: #e1e1e1;
+}
+.border-radius-10{
+    border-radius: 10px;
+}
+body{
+    background-color: var(--bg-color);
+    font-family: 'Roboto', sans-serif;
+}
+.slider-img{
+    width: 80vw !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: auto !important;
+    border-radius: 20px !important;
+    margin-top: 1rem !important;
+}
+
+/* next - prev button */
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 80% 80%;
+    background-color: #F05A28;
+    border-radius: 20px;
+}
+/* top- border */
+.top-border{
+    background: linear-gradient(90deg, #EC008C 5%, #F05A28);
+    height: 0.2em;
+}
+a{
+    text-decoration: none !important;
+    color: white;
+}
+a:hover{
+    color: white !important;
+}
+.logo img{
+    width: 50px;
+}
+@media (max-width: 600px) {
+    .logo img{
+        width: 45px;
+    }
+}
+.dark-btn{
+    background: linear-gradient(-45deg, #EC008C, #F05A28);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.shallow-btn{
+    background: transparent;
+    color: white;
+    border: 2px solid var(--pink-color);
+    padding: 3px 18px;
+    border-radius: 20px;
+}
+.modal-body, .modal-content{
+    background-color: #21252d !important;
+    position: relative;
+}
+.close-btn{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: linear-gradient(-45deg, #EC008C, #F05A28);
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+}
+#sign_in_form input, #log_in_form input{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+#sign_in_form input:first-child{
+    width: 50px;
+}
+#sign_in_form input:last-child{
+    width: 200px;
+}
+.playstore, .appstore{
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+}
+.more-btn a{
+    font-size: 14px;
+    color: var(--orange-color);
+}
+.more-btn a:hover{
+    color: var(--orange-color) !important;
+}
+.my-card{
+    opacity: 1;
+    transition: 0.1s ease;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: flex;
+}
+.advertising-box{
+    background-color: #21252d;
+    border-radius: 10px;
+}
+.footer-content ul li{
+    padding: 10px;
+    background-color: #4e4e4e;
+    border-radius: 10px;
+}
+.footer-content ul li:hover{
+    background-color: black;
+}
+.social-icons ul li{
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.social-icons ul li:hover{
+    background-color: transparent
+}
+.social-icons ul li:first-child a{
+    color: hotpink !important;
+}
+.social-icons ul li:nth-child(2) a{
+    color: #5493f0 !important;
+}
+.social-icons ul li:last-child a{
+    color: #98c2ff !important;
+}
+.social-icons ul li a i{
+    font-size: 45px;
+}
+.small-text{
+    font-size: 0.8rem;
+}
+.dot-menu-btn{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 25px;
+}
+.song-img{
+    width: 60px;
+}
+.playlist ul li{
+    border: 1px solid transparent;
+}
+.playlist ul li:hover{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.recommendation{
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.recommendation:hover{
+    border: 1px solid var(--orange-color);
+}
